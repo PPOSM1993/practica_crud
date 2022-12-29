@@ -1,0 +1,178 @@
+:root {
+    --color-primary: #2ea3f2;
+    --color-text: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:var(--color-text) ;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: var(--color-primary);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: var(--color-text);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 50px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-text);
+    border-radius: 1px;
+    width: 50%;
+    list-style-type: none;
+}
+
+.list li {
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-detail {
+    background-color: var(--color-primary);
+    color:white;
+}
+
+.btn-detail:hover {
+    background-color: white;
+    color: var(--color-primary);
+}
+
+.btn-update {
+    background-color: #ffce00;
+    color:black;
+}
+
+.btn-update:hover {
+    background-color: black;
+    color: #ffce00;
+}
+
+.btn-delete {
+    background-color: rgb(214, 1, 1); 
+    color:white;
+}
+
+.btn-delete:hover {
+    background-color: white;
+    color: rgb(214, 1, 1); 
+}
+
+.search {
+    margin: 20px;
+    width: 50%;
+}
+
+.search-bar {
+    padding: 4px;
+    width: 80%;
+}
+
+.search-btn {
+    width: 19%;
+    background-color: rgb(68, 159, 68);
+    color:white;
+    outline: none;
+    border: 0;
+    box-shadow: 0;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: white;
+    background-color: rgb(68, 159, 68);
+}
+
+.aux-btns {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.aux-btns a {
+    padding-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.alert-success {
+    width: 100%;
+    padding: 10px;
+    background-color: #00b755;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: var(--color-primary);
+    margin: 50px;
+}
+
+
+.card a {
+    color: white;
+    text-decoration: none;
+}
+
+

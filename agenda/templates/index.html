@@ -1,0 +1,23 @@
+{% extends 'layout/base.html' %}
+
+{% block 'title' %}
+    Inicio
+{% endblock  %}
+
+{% block 'content' %}
+    <h1 style="text-transform: uppercase;">Bienvenido a nuestro gestor personal</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <br>
+            <a href="{% url 'todo' %}">Tareas</a>
+        </div>
+        <div class="card">
+            <br>
+            <a href="{% url 'contact' %}">Contactos</a>
+        </div>
+
+    </div>
+
+{% endblock  %}

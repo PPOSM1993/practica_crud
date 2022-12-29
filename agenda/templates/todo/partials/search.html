@@ -1,0 +1,6 @@
+{% csrf_token %}
+<form class="search" action="{% url 'todo' %}" method="GET">
+
+    <input type="text" name="search" placeholder="Buscar Tarea" class="search-bar">
+    <input type="submit" class="btn search-btn">
+</form>
